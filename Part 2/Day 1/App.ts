@@ -37,7 +37,7 @@ UserRole.ADMIN; //You can used any place
 
 //?ANY
 
-let a; //? You an not defined type than it is a by default type any  than typyscript off
+let a; //? You an not defined type than it is a by default type any than typyscript off
 a = 12;
 a = "sting";
 a.toUpperCase();
@@ -75,7 +75,6 @@ a2 = null;
 let a3 = undefined; // You can not any thing defined than undefined
 
 //!Never
-
 function abcde(): never {
   while (true) {} // This is a infint loops than return not any thing
 }

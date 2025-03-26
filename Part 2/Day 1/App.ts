@@ -71,12 +71,16 @@ a2 = "sumit";
 a2 = null;
 // a2=12 //❌ You can defined type string or null
 
+
 //!undefined
 let a3 = undefined; // You can not any thing defined than undefined
+a3 = 12
+console.log(a3)
+
 
 //!Never
 function abcde(): never {
-  while (true) {} // This is a infint loops than return not any thing
+  while (true) { } // This is a infint loops than return not any thing
 }
 
 abcde();

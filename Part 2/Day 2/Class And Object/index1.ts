@@ -11,5 +11,5 @@ class Demo {
 
 class Demo1 extends Demo {}
 
-let Data = new Demo("sumit", 12, 4000);
+let Data = new Demo("sumit", 12,440);
 console.log(Data);

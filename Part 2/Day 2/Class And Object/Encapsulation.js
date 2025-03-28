@@ -7,9 +7,11 @@ var ATM = /** @class */ (function () {
         this.case = 12000;
     }
     ATM.prototype.getCase = function () {
+        //Getter Method
         return this.case;
     };
     ATM.prototype.setcase = function (amount) {
+        //Setter Method
         this.case = amount;
     };
     ATM.prototype.withdraw = function (amount) {
